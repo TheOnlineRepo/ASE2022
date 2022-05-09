@@ -1,0 +1,12 @@
+python ood_detection.py -dataset mnist -model leNet_1 -ood_dataset SVHN
+python ood_detection.py -dataset mnist -model leNet_1 -ood_dataset FashionMNIST
+python ood_detection.py -dataset mnist -model leNet_4 -ood_dataset SVHN
+python ood_detection.py -dataset mnist -model leNet_4 -ood_dataset FashionMNIST
+python ood_detection.py -dataset mnist -model leNet_5 -ood_dataset SVHN
+python ood_detection.py -dataset mnist -model leNet_5 -ood_dataset FashionMNIST
+python ood_detection.py -dataset cifar10 -model resnet20_cifar10 -ood_dataset SVHN
+python ood_detection.py -dataset cifar10 -model resnet20_cifar10 -ood_dataset SUN
+python ood_detection.py -dataset cifar10 -model resnet50_cifar10 -ood_dataset SVHN
+python ood_detection.py -dataset cifar10 -model resnet50_cifar10 -ood_dataset SUN
+python ood_detection.py -dataset cifar10 -model MobileNet -ood_dataset SVHN
+python ood_detection.py -dataset cifar10 -model MobileNet -ood_dataset SUN

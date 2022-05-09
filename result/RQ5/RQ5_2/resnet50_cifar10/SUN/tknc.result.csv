@@ -1,0 +1,11 @@
+train coverage,3669
+ood coverage,576
+test coverage,3325
+ood activate,97
+test activate,28
+ood activable samples,10000
+test activable samples,24
+mean(neuron activated by ood),32.5634
+mean(neuron activated by test),1.1666666666666667
+sum(neuron activated by ood),325634
+sum(neuron activated by test),28

@@ -1,0 +1,11 @@
+train coverage,0
+ood coverage,9734
+test coverage,2020
+ood activate,9734
+test activate,2020
+ood activable samples,10000
+test activable samples,593
+mean(neuron activated by ood),6799.9218
+mean(neuron activated by test),3.873524451939292
+sum(neuron activated by ood),67999218
+sum(neuron activated by test),2297
